@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Brand</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        /* Profile Section */
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #ddd; /* Placeholder color */
+            margin-bottom: 1rem;
+            object-fit: cover;
+        }
+
+        h1 { margin: 10px 0; font-size: 1.8rem; }
+        p { color: #666; margin-bottom: 2rem; }
+
+        /* Buttons */
+        .btn {
+            display: block;
+            padding: 15px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        .btn:hover { transform: translateY(-2px); }
+
+        /* Branding Colors */
+        .btn-primary { background: #007bff; color: white; }
+        .btn-secondary { background: #28a745; color: white; } /* WhatsApp Green */
+        .btn-outline { border: 2px solid #333; color: #333; }
+
+        /* Responsive Adjustments */
+        @media (max-width: 480px) {
+            .container { padding: 1.5rem; }
+            h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+        
+        <h1>Your Name</h1>
+        <p>Instructor & Developer | Passionate about teaching and building projects.</p>
+
+        <a href="mailto:your-email@example.com" class="btn btn-primary">📧 Email Me</a>
+        
+        <a href="https://wa.me/123456789" target="_blank" class="btn btn-secondary">💬 WhatsApp Me</a>
+
+        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+
+        <a href="#courses" class="btn btn-outline">📚 My Courses</a>
+        <a href="#projects" class="btn btn-outline">🚀 View My Projects</a>
+    </div>
+
+</body>
+</html>
